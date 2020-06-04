@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content scroll="false">
+  <div class="splash-bg"></div>
+  <div class="splash-info">
+    <div class="splash-logo"></div>
+    <div class="splash-intro">
+      Bienvenido
+    </div>
+  </div>
+  <div padding>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+    </ion-item>
+
+    <br />
+
+    <div class="button-content">
+      <ion-button size="default" shape="round" (click)="onLogin()">Iniciar sesión</ion-button>
+      <ion-button size="default" shape="round" routerLink="/register">Registrarse</ion-button>
+    </div>
+  </div>
+
+</ion-content>

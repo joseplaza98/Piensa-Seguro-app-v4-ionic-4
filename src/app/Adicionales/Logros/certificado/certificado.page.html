@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>certificado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div *ngIf="ocultarBtn" class="button-content">
+    <ion-button ion-button class="btn" round (click)="accion1()">Iniciar</ion-button>
+  </div>
+
+  <br />
+
+  <div id="Iframe-Liason-Sheet2" class="iframe-border center-block-horiz" *ngIf="verPrueba">
+    <div class="responsive-wrapper responsive-wrapper-wxh-760x1200">
+      <iframe src="https://es.surveymonkey.com/r/BZFRL5X">Cargando…</iframe>
+    </div>
+  </div>
+
+</ion-content>
