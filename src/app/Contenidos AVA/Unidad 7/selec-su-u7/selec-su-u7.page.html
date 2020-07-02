@@ -1,15 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="end">
-      <ion-button (click)="aLogrosU7()">
-        Logros
-        <ion-icon name="ribbon-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/int-u7"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>selec-su-u7</ion-title>
+    <ion-title>Contenido</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,10 +13,6 @@
     <ion-row>
 
       <ion-col>
-        <ion-card class="card-content2">
-          <img class="img-size" src="../../../../../assets/icon/Logros/Und 7.png">
-        </ion-card>
-
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -82,7 +72,7 @@
                   <img src="../../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=1GS0g7EYIu6MmRmUPT-LovAKdMVuN3I_X">
+                  href="https://drive.google.com/file/d/16t9p_huTIhuaIUFwIHbgU_hXegQMaNL0/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -92,7 +82,9 @@
 
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -118,5 +110,11 @@
 
     </ion-row>
   </ion-grid>
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="tertiary" (click)="aLogrosU7()">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>

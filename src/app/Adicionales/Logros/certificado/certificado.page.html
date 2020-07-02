@@ -1,24 +1,78 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/home"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>certificado</ion-title>
+    <ion-title>Certificado</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
-  <div *ngIf="ocultarBtn" class="button-content">
-    <ion-button ion-button class="btn" round (click)="accion1()">Iniciar</ion-button>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-sm>
+        <ion-card class="card-sizeD">
 
-  <br />
+          <ion-card-header class="card-title" text-wrap>
+            Proyecto Infinity
+          </ion-card-header>
 
-  <div id="Iframe-Liason-Sheet2" class="iframe-border center-block-horiz" *ngIf="verPrueba">
-    <div class="responsive-wrapper responsive-wrapper-wxh-760x1200">
-      <iframe src="https://es.surveymonkey.com/r/BZFRL5X">Cargando…</iframe>
-    </div>
-  </div>
+          <ion-card-content>
+            <div style=" display: flex; align-items: center; justify-content: center;">
+              <ion-card>
+                <img src="../../../../assets/imgs/iconoLogo.png">
+              </ion-card>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+        <ion-card class="card-sizeD">
+
+          <ion-card-header class="card-title" text-wrap>
+            Formalización Proyecto Infinity
+          </ion-card-header>
+
+          <ion-card-content>
+
+            <p class="card-subtitle">De parte de los integrantes del <strong>Proyecto Infinity</strong>, se le informa
+              el agradecimiento con usted y
+              su interéz en querer generar conocimiento a través de las herramientas disruptivas contemporaneas, por lo
+              tanto
+              será premiado con la <strong>entrega del diploma que certifica la finalización del curso y superación del
+                mismo</strong>, donde usted como profesional cuenta en este momento con los conocimientos necesarios
+              para
+              comprender y dictaminar una estrategia segura para la protección de datos e información haciendo uso de
+              herramientas, métodos y metodologías; en este orden de ideas, de antemano lo felicitamos y le extendemos
+              la
+              invitación a continuar aprendiendo con nuestras modalidades virtuales de aprendizaje en areas
+              transversales de
+              la Ingeniería de Sistemas.</p>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+        <ion-card class="card-sizeD">
+
+          <ion-card-header class="card-title" text-wrap>
+            Diploma
+          </ion-card-header>
+
+          <ion-card-content>
+            <div style=" display: flex; align-items: center; justify-content: center;">
+              <ion-card>
+                <img src="../../../../assets/icon/Logros/Diploma Piensa seguro.png">
+              </ion-card>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

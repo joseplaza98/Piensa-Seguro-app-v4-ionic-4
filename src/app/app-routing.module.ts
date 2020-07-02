@@ -54,11 +54,6 @@ const routes: Routes = [
     path: 'acerca-de',
     loadChildren: () => import('./Adicionales/acerca-de/acerca-de.module').then(m => m.AcercaDePageModule)
   },
-  {
-    path: 'admin',
-    loadChildren: () => import('./admin/admin.module').then(m => m.AdminPageModule),
-    canActivate: [AuthGuard]
-  },
 
   /**Actividades y evaluaciones */
   {
@@ -620,6 +615,10 @@ const routes: Routes = [
     path: 't2-su1-u7',
     loadChildren: () => import('./Contenidos AVA/Unidad 7/Sub Unidad 1/t2-su1-u7/t2-su1-u7.module').then(m => m.T2Su1U7PageModule),
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'speech',
+    loadChildren: () => import('./Adicionales/Bot-Ininity/speech/speech.module').then( m => m.SpeechPageModule)
   },
 ];
 

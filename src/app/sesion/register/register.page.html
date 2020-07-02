@@ -1,9 +1,9 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/login"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>Register</ion-title>
+    <ion-title>Registrar</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -12,17 +12,16 @@
   <div class="splash-info">
     <div class="splash-logo"></div>
     <div class="splash-intro">
-      Bienvenido
     </div>
   </div>
   <div padding>
     <ion-item>
-      <ion-label position="floating" >Email</ion-label>
+      <ion-label position="floating">Correo</ion-label>
       <ion-input type="text" [(ngModel)]="user.email"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating" >Password</ion-label>
+      <ion-label position="floating">Contraseña</ion-label>
       <ion-input type="password" [(ngModel)]="user.password"></ion-input>
     </ion-item>
 

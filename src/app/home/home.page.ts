@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AuthService } from '../services/Auth/auth.service';
+import { AlertController } from '@ionic/angular';
 
 
 @Component({
@@ -12,13 +13,37 @@ import { AuthService } from '../services/Auth/auth.service';
 })
 export class HomePage {
 
-  constructor(private authSvc: AuthService, private router: Router, private afAuth: AngularFireAuth) {
+  constructor(private authSvc: AuthService, private router: Router, private afAuth: AngularFireAuth, public alertController: AlertController) {
   }
 
-  onLogout() {
+  async onLogout() {
     console.log('Logout!');
-    this.afAuth.signOut();
-    this.router.navigateByUrl('/login');
+
+    const alert = await this.alertController.create({
+      cssClass: 'my-custom-class',
+      header: 'Confirmación',
+      message: '¿Esta seguro que desea cerrar la sesión?',
+      buttons: [
+        {
+          text: 'SI',
+          handler: () => {
+            console.log('Confirmación Okay: Sesión Finalizada');
+            this.afAuth.signOut();
+            this.router.navigateByUrl('/login');
+          }
+        },
+        {
+          text: 'NO',
+          role: 'cancel',
+          cssClass: 'secondary',
+          handler: (blah) => {
+            console.log('Confirmar Cancelar: Sesión Activa');
+          }
+        }
+      ]
+    });
+
+    await alert.present();
   }
 
   aInt_U1() {
@@ -47,11 +72,6 @@ export class HomePage {
 
   aInt_U7() {
     this.router.navigate(['/int-u7'])
-  }
-
-
-  aAdmin() {
-    this.router.navigate(['/admin'])
   }
 
 }

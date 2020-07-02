@@ -15,6 +15,9 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from './../environments/environment';
 
+import { SpeechRecognition } from '@ionic-native/speech-recognition/ngx';
+import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -28,7 +31,9 @@ import { environment } from './../environments/environment';
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    SpeechRecognition,
+    TextToSpeech
   ],
   bootstrap: [AppComponent]
 })

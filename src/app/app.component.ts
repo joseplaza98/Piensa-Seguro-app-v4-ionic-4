@@ -38,7 +38,7 @@ export class AppComponent {
           icon: "home"
         },
         {
-          title: "Plan de capacitación",
+          title: "Plan de Formación",
           url: "/plan-capacitacion",
           icon: "list-outline"
         },
@@ -46,11 +46,6 @@ export class AppComponent {
           title: "Consultar a infinity",
           url: "/foro",
           icon: "search-circle-outline"
-        },
-        {
-          title: "Estadísticas",
-          url: "/estadisticas",
-          icon: "stats-chart-outline"
         },
         {
           title: "Insignias",

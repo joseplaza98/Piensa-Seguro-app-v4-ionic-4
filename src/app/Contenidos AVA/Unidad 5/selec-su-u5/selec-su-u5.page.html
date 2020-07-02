@@ -1,15 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="end">
-      <ion-button (click)="aLogrosU5()">
-        Logros
-        <ion-icon name="ribbon-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/int-u5"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>selec-su-u5</ion-title>
+    <ion-title>Contenido</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,10 +13,6 @@
     <ion-row>
 
       <ion-col>
-        <ion-card class="card-content2">
-          <img class="img-size" src="../../../../../assets/icon/Logros/Und 5.png">
-        </ion-card>
-
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -91,7 +81,9 @@
 
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -136,7 +128,9 @@
 
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -185,5 +179,11 @@
 
     </ion-row>
   </ion-grid>
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="tertiary" (click)="aLogrosU5()">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>

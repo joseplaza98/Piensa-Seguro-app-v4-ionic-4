@@ -41,4 +41,8 @@ export class InsigniasPage implements OnInit {
     this.router.navigate(['/logros-u7'])
   }
 
+  aCertificado(){
+    this.router.navigate(['/certificado']);
+  }
+
 }

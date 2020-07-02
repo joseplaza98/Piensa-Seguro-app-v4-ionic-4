@@ -13,8 +13,13 @@ export const environment = {
     messagingSenderId: "849538242425",
     appId: "1:849538242425:web:a428b7f9834e5de22a01a8",
     measurementId: "G-EXYJ4Z5DZB"
+  },
+
+  dialogflow: {
+    angularBot: '59c0efd0d9b04f55bbd949bb15d9a2cd'
   }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

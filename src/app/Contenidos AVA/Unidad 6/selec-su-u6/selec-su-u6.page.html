@@ -1,15 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="end">
-      <ion-button (click)="aLogrosU6()">
-        Logros
-        <ion-icon name="ribbon-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/int-u1"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>selec-su-u6</ion-title>
+    <ion-title>Contenido</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,10 +13,6 @@
     <ion-row>
 
       <ion-col>
-        <ion-card class="card-content2">
-          <img class="img-size" src="../../../../../assets/icon/Logros/Und 6.png">
-        </ion-card>
-
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -46,7 +36,7 @@
                   <img src="../../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=18akHa78EyDgw7bEsv6IymUyoVoZTyC48">
+                  href="https://drive.google.com/file/d/1pewmh7Ep8p9malrOcW2pQHVMR8PScsZz/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -59,7 +49,7 @@
                   <img src="../../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=1wl52QDwJL6lRl6p4m_dEgSRtGJYk5k6R">
+                  href="https://drive.google.com/file/d/1qZey_4LpN7OlOHf7kL1fhYlu0gSSm2T7/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -108,7 +98,7 @@
                   <img src="../../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=1nzX6e9U_N1D2rTN1H-UIY8lfOKSMvPeV">
+                  href="https://drive.google.com/file/d/14nCwMDz7YGCxcwYJueuEnNw9MDW9RopJ/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -190,7 +180,9 @@
 
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -239,5 +231,11 @@
 
     </ion-row>
   </ion-grid>
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="tertiary" (click)="aLogrosU6()">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>

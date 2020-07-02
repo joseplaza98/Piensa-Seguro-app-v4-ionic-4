@@ -133,11 +133,12 @@ hr.rounded {
 }
 
 .card-content3{
-    position: absolute;
     border-radius: 15px;
     background-color: #c2edf1;
-    width: auto; 
-    height: auto;
+    min-width: 80%; 
+    min-height: 50%;
+    max-width: 90%; 
+    max-height: 75%;
 }
 
 .img-size{
@@ -149,6 +150,14 @@ hr.rounded {
     border-radius: 15px;
     text-align: center;
 }
+
+.img-size2{
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 /**Redondear imagenes logros*/
 .round-img{ 
@@ -169,6 +178,11 @@ max-height: 500px;
 
 .font-list{
     background-color:#c2edf1;
+}
+
+.card-sizeD{
+    border-radius: 15px;
+    background-color: #c2edf1;
 }
 
 /**Videos*/
@@ -253,6 +267,8 @@ max-height: 500px;
 
     /**Capsulas*/
     #Iframe-Liason-Sheet {
+        min-width: 250px;
+        min-height: 250px;
         max-width: 760px;
         max-height: 500px;
         overflow: hidden;
@@ -275,6 +291,8 @@ max-height: 500px;
         -webkit-overflow-scrolling: touch;
         overflow: auto;
         }
+
+        /**Cápsula*/
         .responsive-wrapper iframe {
         position: absolute;
         top: 0;
@@ -285,6 +303,18 @@ max-height: 500px;
         padding: 0;
         border: none;
         }
+
+        /** prueba*/
+        .responsive-wrapper2 iframe  {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1000px;
+            margin: 0;
+            padding: 0;
+            border: none;
+            }
         /* padding-bottom = h/w as a % */
         .responsive-wrapper-wxh-760x1200 {
         padding-bottom: 363.6364%;

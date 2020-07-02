@@ -1,573 +1,621 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/home"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>plan-capacitacion</ion-title>
+    <ion-title>Plan de Formación</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
-  <ion-card class="card-content2" *ngFor="let U1 of U1">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U1.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U1.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U1.obj1}}</p>
-      <p>{{U1.obj2}}</p>
-      <p>{{U1.obj3}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U1.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t8}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub1_t9}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+  <ion-grid>
+    <ion-row>
 
-    <ion-card-content>
-      <strong>{{U1.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U1.sub2_t6}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
-  </ion-card>
+      <ion-col size="12" size-sm>
 
-  <ion-card class="card-content2" *ngFor="let U2 of U2">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U2.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U2.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U2.obj1}}</p>
-      <p>{{U2.obj2}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U2.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t8}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t9}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t10}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t11}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t12}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t13}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t14}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t15}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t16}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t17}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t18}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t19}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub1_t20}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+        <ion-card class="card-content2" *ngFor="let U1 of U1">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U1.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U1.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U1.obj1}}</p>
+            <p>{{U1.obj2}}</p>
+            <p>{{U1.obj3}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U1.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t8}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub1_t9}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-    <ion-card-content>
-      <strong>{{U2.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub2_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub2_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub2_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub2_t4}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+          <ion-card-content>
+            <strong>{{U1.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U1.sub2_t6}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
 
-    <ion-card-content>
-      <strong>{{U2.sub3}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub3_t8}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+      </ion-col>
 
-    <ion-card-content>
-      <strong>{{U2.sub4}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U2.sub4_t6}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
-  </ion-card>
+      <ion-col size="12" size-sm>
 
-  <ion-card class="card-content2" *ngFor="let U3 of U3">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U3.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U3.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U3.obj1}}</p>
-      <p>{{U3.obj2}}</p>
-      <p>{{U3.obj3}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U3.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub1_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub1_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub1_t5}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+        <ion-card class="card-content2" *ngFor="let U2 of U2">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U2.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U2.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U2.obj1}}</p>
+            <p>{{U2.obj2}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U2.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t8}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t9}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t10}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t11}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t12}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t13}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t14}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t15}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t16}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t17}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t18}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t19}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub1_t20}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-    <ion-card-content>
-      <strong>{{U3.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub2_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub2_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub2_t3}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+          <ion-card-content>
+            <strong>{{U2.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub2_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub2_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub2_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub2_t4}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-    <ion-card-content>
-      <strong>{{U3.sub3}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t8}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t9}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t10}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t11}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t12}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t13}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t14}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t15}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t16}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t17}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t18}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U3.sub3_t19}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
-  </ion-card>
+          <ion-card-content>
+            <strong>{{U2.sub3}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub3_t8}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-  <ion-card class="card-content2" *ngFor="let U4 of U4">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U4.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U4.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U4.obj1}}</p>
-      <p>{{U4.obj2}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U4.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub1_t3}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+          <ion-card-content>
+            <strong>{{U2.sub4}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U2.sub4_t6}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
 
-    <ion-card-content>
-      <strong>{{U4.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t8}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t9}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t10}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t11}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t12}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U4.sub2_t13}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+      </ion-col>
 
-  </ion-card>
+      <ion-col size="12" size-sm>
 
-  <ion-card class="card-content2" *ngFor="let U5 of U5">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U5.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U5.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U5.obj1}}</p>
-      <p>{{U5.obj2}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U5.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub1_t8}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+        <ion-card class="card-content2" *ngFor="let U3 of U3">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U3.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U3.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U3.obj1}}</p>
+            <p>{{U3.obj2}}</p>
+            <p>{{U3.obj3}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U3.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub1_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub1_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub1_t5}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-    <ion-card-content>
-      <strong>{{U5.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub2_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub2_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub2_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub2_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U5.sub2_t5}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+          <ion-card-content>
+            <strong>{{U3.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub2_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub2_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub2_t3}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-  </ion-card>
+          <ion-card-content>
+            <strong>{{U3.sub3}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t8}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t9}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t10}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t11}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t12}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t13}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t14}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t15}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t16}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t17}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t18}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U3.sub3_t19}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
 
-  <ion-card class="card-content2" *ngFor="let U6 of U6">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U6.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U6.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U6.obj1}}</p>
-      <p>{{U6.obj2}}</p>
-      <p>{{U6.obj3}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U6.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t3}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t4}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t5}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t6}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t7}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t8}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t9}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t10}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t11]}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t12}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t13}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U6.sub1_t14}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-sm>
 
-  <ion-card class="card-content2" *ngFor="let U7 of U7">
-    <ion-card-content class="card-subtitle">
-      <ion-card-title>{{U7.tt}}</ion-card-title>
-      <strong>Introducción</strong>
-      <p>{{U7.int}}</p>
-      <br />
-      <strong>Objetivos</strong>
-      <p>{{U7.obj1}}</p>
-      <p>{{U7.obj2}}</p>
-    </ion-card-content>
-    <ion-card-content>
-      <strong>{{U7.sub1}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U7.sub1_t1}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U7.sub1_t2}}</p>
-        </ion-item>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U7.sub1_t3}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+        <ion-card class="card-content2" *ngFor="let U4 of U4">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U4.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U4.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U4.obj1}}</p>
+            <p>{{U4.obj2}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U4.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub1_t3}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
 
-    <ion-card-content>
-      <strong>{{U7.sub2}}</strong>
-      <ion-list>
-        <ion-item class="font-list" text-wrap>
-          <p>{{U7.sub2_t1}}</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+          <ion-card-content>
+            <strong>{{U4.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t8}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t9}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t10}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t11}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t12}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U4.sub2_t13}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
 
-  </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+
+        <ion-card class="card-content2" *ngFor="let U5 of U5">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U5.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U5.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U5.obj1}}</p>
+            <p>{{U5.obj2}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U5.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub1_t8}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+
+          <ion-card-content>
+            <strong>{{U5.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub2_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub2_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub2_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub2_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U5.sub2_t5}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+
+        <ion-card class="card-content2" *ngFor="let U6 of U6">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U6.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U6.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U6.obj1}}</p>
+            <p>{{U6.obj2}}</p>
+            <p>{{U6.obj3}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U6.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t3}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t4}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t5}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t6}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t7}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t8}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t9}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t10}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t11}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t12}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t13}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U6.sub1_t14}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+
+        <ion-card class="card-content2" *ngFor="let U7 of U7">
+          <ion-card-content class="card-subtitle">
+            <ion-card-title>{{U7.tt}}</ion-card-title>
+            <br />
+            <strong>Introducción</strong>
+            <br />
+            <p>{{U7.int}}</p>
+            <br />
+            <strong>Objetivos</strong>
+            <p>{{U7.obj1}}</p>
+            <p>{{U7.obj2}}</p>
+          </ion-card-content>
+          <ion-card-content>
+            <strong>{{U7.sub1}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U7.sub1_t1}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U7.sub1_t2}}</p>
+              </ion-item>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U7.sub1_t3}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+
+          <ion-card-content>
+            <strong>{{U7.sub2}}</strong>
+            <ion-list>
+              <ion-item class="font-list" text-wrap>
+                <p>{{U7.sub2_t1}}</p>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

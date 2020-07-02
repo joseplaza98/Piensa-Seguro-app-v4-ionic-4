@@ -1,15 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="end">
-      <ion-button (click)="aLogrosU1()">
-        Logros
-        <ion-icon name="ribbon-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/int-u1"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>selec-su-u1</ion-title>
+    <ion-title>Contenido</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,9 +13,6 @@
     <ion-row>
 
       <ion-col>
-        <ion-card class="card-content2">
-          <img class="img-size" src="../../../../assets/icon/Logros/Und 1.png">
-        </ion-card>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -118,7 +109,7 @@
                   <img src="../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=1Z6XJx4qpz77HqEe9xk9AaRZacU3_b2nu">
+                  href="https://drive.google.com/file/d/1sHG7RZpff1MP0MaWTdvNuUboOxvfmD-n/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -128,7 +119,9 @@
 
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -189,7 +182,7 @@
                   <img src="../../../../assets/icon/Iconos/alerta.png">
                 </ion-thumbnail>
                 <ion-button fill="outline" slot="end"
-                  href="https://drive.google.com/open?id=1WFNsLOVKKLsRQ9WMdYqm8xhSj71Lj2Ox">
+                  href="https://drive.google.com/file/d/1yIFs3lTpsFmAapdhevriwHtTlcS0fc8d/view">
                   Infografía
                   <ion-icon name="bookmarks-outline"></ion-icon>
                 </ion-button>
@@ -198,7 +191,9 @@
             </ion-list>
           </ion-card-content>
         </ion-card>
+      </ion-col>
 
+      <ion-col>
         <ion-card class="card-content2">
           <ion-card-content class="card-subtitle">
 
@@ -248,5 +243,10 @@
     </ion-row>
   </ion-grid>
 
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="tertiary" (click)="aLogrosU1()">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>
