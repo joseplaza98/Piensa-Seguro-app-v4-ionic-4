@@ -16,7 +16,7 @@ export class Message {
     ) 
     {
       //You can define the message profile pic
-      this.profile_pic = (sentBy=='user') ? "../../assets/img/bot/user.png": "../../assets/img/bot/bot.png";
+      this.profile_pic = (sentBy=='user') ? "../../assets/img/bot/user.png": "../../assets/imgs/iconLogo.png";
     }
 }
 

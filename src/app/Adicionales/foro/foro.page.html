@@ -10,17 +10,28 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
-      </ion-buttons>
-      <ion-title size="large">Infinity Responde</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+  <ion-card class="card-content1">
+    <ion-card-header class="card-title" text-wrap>Consulta Inifnity</ion-card-header>
+    <ion-card-content class="card-subtitle">
+      <div style="text-align: center;">
+        Consulta a infnity definiciones de los conceptos que necesites, en relación con la temática de Seguridad
+        Informática; Presiona sobre el botón ubicado en la parte inferior e inicia tu interacción con Inifinity.
+      </div>
+    </ion-card-content>
+
+    <ion-card-content>
+      <div style="text-align: center;">
+        <strong>Observacion:</strong> Las consultas a infinity solo están disponibles desde la aplicación móvil, en caso
+        de querer realizar una consulta deberá instalar la aplicación en su dispositivo para obtener una mejor
+        experiencia.
+      </div>
+    </ion-card-content>
+  </ion-card>
 
   <div id="container">
-    
+
   </div>
   <app-assistant></app-assistant>
+
 </ion-content>
